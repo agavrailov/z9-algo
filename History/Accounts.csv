@@ -1,0 +1,4 @@
+Name,Server,AccountId,User,Pass,Assets,CCY,Real,NFA,Plugin
+IB_U2442949,IB,U2442949,101,0,AssetsIB.csv,USD,1,1,IB.dll
+IB_U2485076,IB,U2485076,101,0,AssetsZ12.csv,USD,1,1,IB.dll
+GP_Demo,GP,0,2151576,0,AssetsGP.csv,EUR,0,0,ZorroMT4
