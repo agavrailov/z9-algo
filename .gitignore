@@ -16,3 +16,5 @@ Log/Z12.png
 *.t1
 *.t8
 History/history.csv
+*.json
+Data/Z12.trd
