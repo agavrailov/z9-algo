@@ -1,0 +1,4 @@
+ 0 for sectors, 
+ 1 for bonds, 
+ 2 for non-US indexes, 
+ 3 for a lead index that represents the US market
