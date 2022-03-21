@@ -29,3 +29,7 @@ api.def
 Microsoft.VC80.CRT.manifest
 zorro.chm
 Zorro_setup_16862.txt
+Log/testtrades.csv
+Log/Z9_plot.csv
+Log/Z9_pnl.csv
+Log/zorro.css
