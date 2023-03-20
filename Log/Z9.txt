@@ -2,91 +2,93 @@ Test Z9 , Zorro 2.444
 
 Simulated account   AssetsZ9 (NFA)
 Bar period          24 hours (avg 2088 min)
-Total processed     4382 bars
-Test period         2018-10-19..2022-02-08 (831 bars)
+Total processed     4784 bars
+Test period         2018-10-19..2023-03-17 (1108 bars)
 Lookback period     252 bars (73 weeks)
 Montecarlo cycles   200
 Simulation mode     Realistic (slippage 5.0 sec)
 Capital invested    5000$
 
-Gross win/loss      545817$-177504$, +715414.6p, lr 693239$
-Average profit      108928$/year, 9077$/month, 419$/day
-Max drawdown        -159098$ 44.2% (MAE -657848$ 182.6%)
-Total down time     6% (TAE 85%)
-Max down time       16 weeks from Nov 2021
-Max open margin     345540$
-Max open risk       8344$
-Trade volume        1255216$ (379526$/year)
-Transaction costs   -3191$ spr, -619$ slp, -8053$ rol, -638$ com
-Capital required    6804$
+Gross win/loss      50826$-20212$, +250804.6p, lr 54727$
+Average profit      6945$/year, 579$/month, 26.71$/day
+Max drawdown        -13807$ 45.1% (MAE -44170$ 144.3%)
+Total down time     25% (TAE 76%)
+Max down time       78 weeks from Feb 2022
+Max open margin     35754$
+Max open risk       119$
+Trade volume        178960$ (40599$/year)
+Transaction costs   -339$ spr, -10.70$ slp, 0$ rol, -67.78$ com
+Capital required    5020$
 
-Number of trades    134 (41/year)
-Percent winning     65.7%
-Max win/loss        136114$ / -65325$
-Avg trade profit    2749$ 5338.9p (+12047.7p / -7495.3p)
-Avg trade slippage  -4.62$ -9.0p (+7.0p / -39.6p)
-Avg trade bars      105 (+85 / -66)
-Max trade bars      386 (111 weeks)
-Time in market      1700%
-Max open trades     24
-Max loss streak     8 (uncorrelated 5)
+Number of trades    124 (29/year)
+Percent winning     64.5%
+Max win/loss        7587$ / -3349$
+Avg trade profit    247$ 2022.6p (+5204.9p / -3763.3p)
+Avg trade slippage  -0.0863$ -0.7p (+7.1p / -15.0p)
+Avg trade bars      95 (+65 / -58)
+Max trade bars      533 (154 weeks)
+Time in market      1067%
+Max open trades     14
+Max loss streak     6 (uncorrelated 5)
 
-Annual growth rate  266.00% (ROI 2178.56%)
-Profit factor       3.07 (PRR 2.39)
-Sharpe ratio        0.36 (Sortino 0.35)
-R2 coefficient      0.558
-Ulcer index         31.6%
-Scholz tax          133409 EUR
+Annual growth rate  56.11% (ROI 138.91%)
+Profit factor       2.51 (PRR 1.94)
+Sharpe ratio        0.41 (Sortino 0.42)
+R2 coefficient      0.303
+Ulcer index         35.2%
+Scholz tax          8075 EUR
 
 Year Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Total
-2018                                          45  -5   +38
-2019   5  31  23   3   9  16  16  39 -26  -8   9   4  +169
-2020  67  -4 -43 132  14  52  49 112 -17 -13  79  26 +1822
-2021  27 -23 -12   1 -19  81  11  31   4   3  12 -39   +34
-2022 -26   4                                           -23
+2018                                          11  -1    +9
+2019   2   9   7   1   3   6   6  16 -13  -3   4   2   +44
+2020  26   1 -17  36   7  25  28  57 -11  -7  40  17  +422
+2021  15 -14  -6  -0 -10  45   7  18   2   1   7 -23   +32
+2022 -12  -1  14 -11  -9  -8  -2   0   0   0   0   0   -28
+2023   0  -5  -4                                        -9
 
 Portfolio analysis  OptF  ProF  Win/Loss   Wgt%
 
 AMZN avg            ----  ----    0/0       0.0  
-APPN avg            ----  0.65    6/5      -2.3  
-CME avg             ----  1.20    1/1       0.0  
-HUBS avg            ----  0.19    5/3      -1.9  
-ILMN avg            ----  0.00    0/2      -0.3  
-MDB avg             ----  1.21    3/3       0.1  
-MKC avg             ----  1.08    4/3       0.0  
-MRAM avg            ----  ----    0/0       0.0  
-MTCH avg            ----  0.81    2/5      -0.0  
-NFLX avg            ----  ----    0/0       0.0  
-NVDA avg            ----  1.94    4/2       0.4  
-NVTA avg            ----  0.61    3/3      -0.1  
-PAYC avg            ----  ++++    6/0       0.3  
-SEDG avg            ----  15.85    5/2      1.0  
-SHOP avg            ----  6.22    5/1       0.6  
-SQ avg              ----  14.45    3/2      0.6  
-TEAM avg            ----  0.29   11/3     -11.1  
-TSLA avg            ----  26.63   13/2     74.1  
-TTD avg             ----  3.28    7/1       0.4  
-TWLO avg            ----  39.07    5/3      0.8  
+APPN avg            ----  1.90    6/5       2.4  
+CME avg             ----  1.88    1/1       0.0  
+HUBS avg            ----  0.69    3/1      -0.2  
+ILMN avg            ----  ----    0/0       0.0  
+MDB avg             ----  3.52    1/1       0.5  
+MKC avg             ----  0.04    5/5     -16.1  
+MRAM avg            ----  0.00    0/1      -0.8  
+MTCH avg            ----  1.43    2/5       0.1  
+NFLX avg            ----  0.00    0/1      -5.2  
+NVDA avg            ----  7.49    5/2       2.8  
+NVTA avg            ----  1.66    3/3       0.1  
+PAYC avg            ----  0.43    3/1      -0.7  
+SEDG avg            ----  0.37    4/2      -3.4  
+SHOP avg            ----  1.51    6/2       0.6  
+SQ avg              ----  93.42    3/1      0.5  
+TEAM avg            ----  0.80   11/3      -1.9  
+TSLA avg            ----  6.41   12/4      76.8  
+TTD avg             ----  8.48    7/1       0.9  
+TWLO avg            ----  ++++    3/0       0.6  
 UDOW avg            ----  ----    0/0       0.0  
-WM avg              ----  0.00    0/4      -0.8  
-WULF avg            ----  3.15    5/1      38.1  
+WM avg              ----  0.00    0/4      -0.6  
+WULF avg            ----  7.58    5/1      43.7  
 
-APPN:L              ----  0.65    6/5      -2.3  
-CME:L               ----  1.20    1/1       0.0  
-HUBS:L              ----  0.19    5/3      -1.9  
-ILMN:L              ----  0.00    0/2      -0.3  
-MDB:L               ----  1.21    3/3       0.1  
-MKC:L               ----  1.08    4/3       0.0  
-MTCH:L              ----  0.81    2/5      -0.0  
-NVDA:L              ----  1.94    4/2       0.4  
-NVTA:L              ----  0.61    3/3      -0.1  
-PAYC:L              ----  ++++    6/0       0.3  
-SEDG:L              ----  15.85    5/2      1.0  
-SHOP:L              ----  6.22    5/1       0.6  
-SQ:L                ----  14.45    3/2      0.6  
-TEAM:L              ----  0.29   11/3     -11.1  
-TSLA:L              ----  26.63   13/2     74.1  
-TTD:L               ----  3.28    7/1       0.4  
-TWLO:L              ----  39.07    5/3      0.8  
-WM:L                ----  0.00    0/4      -0.8  
-WULF:L              ----  3.15    5/1      38.1  
+APPN:L              ----  1.90    6/5       2.4  
+CME:L               ----  1.88    1/1       0.0  
+HUBS:L              ----  0.69    3/1      -0.2  
+MDB:L               ----  3.52    1/1       0.5  
+MKC:L               ----  0.04    5/5     -16.1  
+MRAM:L              ----  0.00    0/1      -0.8  
+MTCH:L              ----  1.43    2/5       0.1  
+NFLX:L              ----  0.00    0/1      -5.2  
+NVDA:L              ----  7.49    5/2       2.8  
+NVTA:L              ----  1.66    3/3       0.1  
+PAYC:L              ----  0.43    3/1      -0.7  
+SEDG:L              ----  0.37    4/2      -3.4  
+SHOP:L              ----  1.51    6/2       0.6  
+SQ:L                ----  93.42    3/1      0.5  
+TEAM:L              ----  0.80   11/3      -1.9  
+TSLA:L              ----  6.41   12/4      76.8  
+TTD:L               ----  8.48    7/1       0.9  
+TWLO:L              ----  ++++    3/0       0.6  
+WM:L                ----  0.00    0/4      -0.6  
+WULF:L              ----  7.58    5/1      43.7  

@@ -31,7 +31,7 @@
 
 // MKTS Daily line format: Date,Open,High,Low,Close,Volume
 // 02/28/2020,108.4,110,107.475,107.575,44239
-string Format = "+-%m/%d/%Y,f3,f1,f2,f4,f6";
+//string Format = "+-%m/%d/%Y,f3,f1,f2,f4,f6";
 
 function main()
 {
