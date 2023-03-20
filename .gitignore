@@ -1,0 +1,17 @@
+﻿*.t6
+*.htm
+*.txt
+Plugin
+Data
+Log
+source
+*.dll
+*.def
+*.wav
+*.chm
+*.exe
+*.zip
+*.manifest
+setup.log
+!password.txt
+History/history.csv
