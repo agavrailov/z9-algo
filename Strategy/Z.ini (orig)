@@ -1,0 +1,13 @@
+NFA = 0
+FXOnly = 0
+MaxCapital = 7000
+Phantom = 1
+Hedge = 4
+Weekend = 2
+Verbose = 1
+BrokerPatch = 0
+Preload = 0
+AssetList = ""
+Exclude = ""
+StopFactor = 1.5
+Cancel = 0
